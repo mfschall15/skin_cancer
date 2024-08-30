@@ -25,5 +25,10 @@ The Baseline CNN code can be found here. It is a very simple implementation most
 #### [IPYNB FILE](CNN_baseline.ipynb)
 
 
+## Future Work
 
+
+There are two things that, if given time to implement, would likely improve model performance by 5-10%. First, implementing segmentation to mask unaffected skin and background has been proven to improve vision transformers' performance immensely.
+
+Secondly, collecting more data and setting up a fine-tuning model for DINOv2 would greatly enhance performance. This would allow the model to better separate classes when embedding into latent space.
 
